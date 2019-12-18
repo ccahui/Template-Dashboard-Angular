@@ -35,7 +35,7 @@ export class SidebarComponent implements OnInit {
         //    { titulo: 'usuarios', url: '/' },
         {
             titulo: 'Usuarios',
-            url: '/'
+            url: '/tablero'
         }, {
             titulo: 'Clientes',
             url: '/'

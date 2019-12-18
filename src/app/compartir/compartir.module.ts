@@ -4,13 +4,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { Error404Component } from './error404/error404.component';
 import { HeaderComponent } from './header/header.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   declarations: [SidebarComponent, Error404Component, HeaderComponent, BreadcrumbComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
         Error404Component,

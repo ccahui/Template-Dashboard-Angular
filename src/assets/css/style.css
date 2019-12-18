@@ -812,6 +812,8 @@ sidebar navigation
             color: #398bf7; }
         .sidebar-nav ul li a.active {
           font-weight: 500;
+         /*KRISTIAN TODO*/
+          background-color: #67757c;
           color: #263238; }
       .sidebar-nav ul li ul {
         padding-left: 28px; }
