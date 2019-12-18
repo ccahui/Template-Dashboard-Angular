@@ -51,6 +51,15 @@
 .pointer {
   cursor: pointer;
 }
+.pointer-sidebar {
+ cursor: pointer; 
+}
+
+.pointer-sidebar:hover  {
+  color: white !important;
+  background-color: #67757c;
+  font-weight: 500;
+}
 
 .w150 {
   width: 150px;

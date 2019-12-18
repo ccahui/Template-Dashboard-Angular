@@ -13,9 +13,9 @@
                         <span class="hide-menu"> Usuario Nombre</span>
                     </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a routerLinkActive="active" routerLink="/perfil">Perfil </a></li>
-                        <li><a routerLinkActive="active" routerLink="/configuraciones">Ajustes de Cuenta</a></li>
-                        <li><a class="pointer">Logout</a></li>
+                        <li><a href="">Perfil </a></li>
+                        <li><a href="">Ajustes de Cuenta</a></li>
+                        <li><a href="" class="pointer">Logout</a></li>
                     </ul>
                 </li>
                 <li class="nav-devider"></li>
@@ -27,12 +27,13 @@
                     <ul aria-expanded="false" class="collapse">
   
                         <li *ngFor="let submenu of menu.submenu">
-                            <a href=""> {{ submenu.titulo }} </a>
+                            <a class="pointer-sidebar">{{ submenu.titulo }} </a>
                         </li>
                     </ul>
                 </li>
   
   
+                
             </ul>
         </nav>
         <!-- End Sidebar navigation -->
