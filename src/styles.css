@@ -1,1 +1,83 @@
+/*
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+*/
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
 /* You can add global styles to this file, and also import other style files */
+.example-container>* {
+  width: 100%;
+  /*font-size: 14px;*/
+}
+
+.form-control-file{
+  border: 0px solid;
+  width: 100%;
+}
+
+.table_responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
+.pd-x-20 {
+  padding-left: 20px;
+  padding-right: 20px
+}
+.pd-x-15{
+    padding-left: 15px;
+    padding-right: 15px
+  }   
+
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button-row button {
+  margin-right: 5px;
+}
+
+
+#themecolors a {
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.w70 {
+  width: 70px;
+}
+
+.img-50 {
+  width: 50px;
+}
+
+.oculto {
+  display: none;
+}
+
+.fondo-negro {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.pruebaActiveClass {
+  font-weight: bold;
+}
