@@ -30,7 +30,7 @@ export class SidebarComponent implements OnInit {
     ]
 }, {
     titulo: 'Material',
-    icono: 'fa fa-folder-open',
+    icono: 'fa fa-folder',
     submenu: [
         //    { titulo: 'usuarios', url: '/' },
         {
