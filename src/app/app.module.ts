@@ -12,10 +12,10 @@ import { TableroModule } from './tablero/tablero.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AuthModule,
     RouterModule,
-    TableroModule
+    AuthModule,
+    TableroModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

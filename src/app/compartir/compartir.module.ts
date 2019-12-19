@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
   declarations: [SidebarComponent, Error404Component, HeaderComponent, BreadcrumbComponent],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
   ],
   exports: [
         Error404Component,

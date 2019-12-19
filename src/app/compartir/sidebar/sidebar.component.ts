@@ -11,11 +11,11 @@ export class SidebarComponent implements OnInit {
     icono: 'fa fa-dashboard',
     submenu: [{
             titulo: 'Grafico',
-            url: '/'
+            url: '/grafico'
         },
         {
-            titulo: 'Ajustes de Cuenta',
-            url: '/'
+            titulo: 'Cuenta',
+            url: '/cuenta'
         },
     ]
 }, {
@@ -25,7 +25,7 @@ export class SidebarComponent implements OnInit {
         //    { titulo: 'usuarios', url: '/' },
         {
             titulo: 'Usuarios',
-            url: '/'
+            url: '/usuarios'
         },
     ]
 }, {
@@ -38,10 +38,10 @@ export class SidebarComponent implements OnInit {
             url: '/tablero'
         }, {
             titulo: 'Clientes',
-            url: '/'
+            url: '/clientes'
         }, {
             titulo: 'Productos',
-            url: '/'
+            url: '/productos'
         },
 
     ]

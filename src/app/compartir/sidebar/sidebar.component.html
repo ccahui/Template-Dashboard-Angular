@@ -10,12 +10,11 @@
                 <li class="user-profile">
                     <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false">
                         <img src="assets/images/users/4.jpg" alt="user" />
-                        <span class="hide-menu"> Usuario Nombre</span>
+                        <span class="hide-menu">Hanna Gover</span>
                     </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a class="pointer-sidebar">Perfil </a></li>
-                        <li><a class="pointer-sidebar">Ajustes de Cuenta</a></li>
-                        <li><a class="pointer-sidebar">Logout</a></li>
+                        <li><a routerLink="/perfil" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="pointer-sidebar">Perfil </a></li>
+                        <li><a routerLink="/login" class="pointer-sidebar">Logout</a></li>
                     </ul>
                 </li>
                 <li class="nav-devider"></li>
