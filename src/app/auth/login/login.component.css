@@ -73,7 +73,3 @@ Login register and recover password Page
     position: absolute;
     height: 100%;
 }
-
-.login-fondo{
-background-image:url("/assets/images/background/login-register.jpg");
-}
