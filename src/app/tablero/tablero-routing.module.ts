@@ -8,8 +8,9 @@ const routes: Routes = [
   {
     path: '', component: TableroComponent,
     children: [
-      { path: '', component: PerfilComponent},
-      { path: 'perfil', component: PerfilComponent},
+      { path: 'perfil', component: PerfilComponent },
+      { path: '', pathMatch: 'full', redirectTo: 'perfil' },
+
     ]
   }
 ];
